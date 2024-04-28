@@ -32,6 +32,10 @@ Following up are some planned stuff for the near and far future do keep in mind 
 3. Better UI
 4. Better animations
 
+### Changelogs
+
+**To be updated**
+
 ### Thanks && other stuff
 
 If you have any recommendations or ideas that should be implemented for the project, feel free to tell me.
