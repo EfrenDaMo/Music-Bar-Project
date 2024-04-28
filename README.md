@@ -7,7 +7,7 @@
 ### Important Info
 
 This is currently part of my one month challenge to build up my CV.
-I'm Currently bulding one project a week, and this is week 1's project.
+I'm Currently building one project a week, and this is week 1's project.
 In which I use barebones HTML, CSS and JS (Javascript) to build a simplistic website.
 
 I do plan on revisiting this project once the month is over to overhaul some stuff, fix some stuff and add some new stuff.
@@ -27,7 +27,7 @@ Which is then reproduced inside the page, while an animation resembling volume b
 
 Following up are some planned stuff for the near and far future do keep in mind that this isn't assured, just thought of during early development.
 
-1. Song quee
+1. Song queue
 2. Song progress Bar
 3. Better UI
 4. Better animations
