@@ -1,0 +1,144 @@
+/* HTML styles */
+body {
+    background-color: black;
+}
+
+/* Id styles */
+#MainContainer {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    border: 10px solid gray;
+    border-radius: 25px;
+}
+
+#TitleBar {
+    text-align: center;
+    align-content: center;
+
+    h1 {
+        color: white;
+        font-family: HackerNerdFont;
+    }
+}
+
+#SecondaryContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Screen {
+    height: 300px;
+    width: 400px;
+
+    margin-left: 185px;
+    
+    border: 5px solid gray;
+    border-radius: 25px;
+}
+
+#BarContainer {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    margin-left: 15%;
+}
+
+#Bar1 {
+    background-color: red;
+    color: red;
+}
+#Bar2 {
+    background-color: blue;
+    color: blue;
+}
+
+#Bar3 {
+    background-color: green;
+    color: green;
+}
+
+#Bar4 {
+    background-color: yellow;
+    color: yellow;
+}
+
+#Controls {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100%;
+    margin-left: 23.5%;
+    margin-right: 24%;
+}
+
+#aButtons {
+    align-content: center;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+#fUButton {
+    width: 100%;
+
+    input[type="file"] {
+        display: none;
+    }
+
+    #Fileupload {
+        width: 100%;
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        color: white; 
+        background-color: white; 
+        text-align: center; 
+        padding: 0px; 
+        padding-top: 10px; 
+        padding-bottom: 10px;
+
+        i {
+            color: black;
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+}
+
+/* Class styles */
+.Bars {
+    height: 6%;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: height 0.1s ease-in-out;
+}
+
+.Bars:hover {
+    height: 80%;
+}
+
+.customButtons {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    i {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/* Custom styles */
+@font-face {
+    font-family: 'HackerNerdFont';
+    src: url('../FONTS/HackNerdFont-Regular.ttf') ;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <!-- File links -->
+        <link rel="stylesheet" href="../CSS/Style.CSS"/> 
+        <script type="text/javascript" src="../JS/script.js"></script>
+        <script src="https://kit.fontawesome.com/74d7ea6ce6.js" crossorigin="anonymous"></script>
+
+        <!-- File Mods -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Music Bar Project </title>
+    </head>
+
+    <!-- Body -->
+    <body>
+        <div id="MainContainer">
+            <div id="TitleBar">
+                <h1 id="simpleTitle"> Music Bar Project </h1>
+            </div>
+
+            <div id="SecondaryContainer">
+                <div id="Screen">
+                    <div id="BarContainer"> 
+                        <div id="Bar1" class="Bars">
+
+                        </div>
+
+                        <div id="Bar2" class="Bars">
+
+                        </div>
+
+                        <div id="Bar3" class="Bars">
+
+                        </div>
+
+                        <div id="Bar4" class="Bars">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Controls">
+                    <div id="aButtons">
+                        <button id="Prev" class="customButtons"> 
+                            <i class="fa-solid fa-backward"></i>
+                        </button>
+
+                        <button id="Play" class="customButtons"> 
+                           <i class="fa-solid fa-play"></i> 
+                        </button>
+
+                        <button id="Next" class="customButtons">
+                            <i class="fa-solid fa-forward"></i>
+                        </button>
+                    </div>
+
+                    <div id="fUButton"> 
+                        <!-- <button id="Fileupload" class="customButtons"> 
+                            <i class="fa-solid fa-upload"></i> 
+                        </button> -->
+
+                        <label for="FileUpload" id="Fileupload" class="custom-file-upload">
+                            <i class="fa-solid fa-upload"></i>
+                        </label>
+                        <input id="FileUpload" type="file" class="audio-input" name="audio" accept=".mp3, .wav" style="display: none;"/>
+                        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.5" style="display: none;"/>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
