@@ -140,5 +140,5 @@ body {
 /* Custom styles */
 @font-face {
     font-family: 'HackerNerdFont';
-    src: url('../FONTS/HackNerdFont-Regular.ttf') ;
+    src: url('FONTS/HackNerdFont-Regular.ttf') ;
 }
